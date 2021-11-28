@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container rounded">
+        <div class="row aling-items-stretch">
+            <div class="col d-none d-lg-block rounded">
+                <img src="/img/fondoRegistro.png" alt="Fondo con deportistas fitness" class="fondoRegistro">
+            </div>
+            <div class="col bg-white p-4 mt-4 mb-4 col-md-4 col-lg-4 col-xl-4">
+                <div class="registro">
+                    <h1 class="fw-bold text-center fs-5 py-2 mt-2">Diligencia la siguiente información</h1>
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label" id="#name">
+                                Nombres
+                                <span class="text-danger">*</span>
+                            </label> <input type="String" class="form-control" name="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label" id="#email">
+                                Correo electrónico
+                                <span class="text-danger">*</span>
+                            </label> <input type="email" class="form-control" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label" id="#password">
+                                password
+                                <span class="text-danger">*</span>
+                            </label> <input type="password" class="form-control" name="password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label" id="#confirmaPassword">
+                                Confirmación dei password
+                                <span class="text-danger">*</span>
+                            </label> <input type="password" class="form-control" name="password">
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-danger">Registrarse</button>
+                        </div>
+                        <br>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-danger">
+                               <a href="/index.html" class="yaTengoCuenta">
+                                Ya tengo cuenta
+                               </a>
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+
+
+            </div>
+            <div class="col d-none d-lg-block rounded">
+                <img src="/img/modelo1.png" alt="Modelo señalando el formulario" class="modelo1">
+            </div>
+        </div>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/funciones.js"></script>
+</body>
+
+</html>
